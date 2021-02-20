@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,9 @@
 		F76F509025D731110096A5D2 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F508F25D731110096A5D2 /* FlixTests.swift */; };
 		F76F509B25D731110096A5D2 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F509A25D731110096A5D2 /* FlixUITests.swift */; };
 		F76F50AC25D759A70096A5D2 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F50AB25D759A70096A5D2 /* MovieViewController.swift */; };
+		F7AD3C6025E08B7E00EE2488 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD3C5F25E08B7E00EE2488 /* MovieDetailsViewController.swift */; };
+		F7AD3C6825E0B9C200EE2488 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD3C6725E0B9C200EE2488 /* MovieGridViewController.swift */; };
+		F7AD3C7525E0C20900EE2488 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD3C7425E0C20900EE2488 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		F76F509A25D731110096A5D2 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		F76F509C25D731110096A5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F76F50AB25D759A70096A5D2 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		F7AD3C5F25E08B7E00EE2488 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		F7AD3C6725E0B9C200EE2488 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		F7AD3C7425E0C20900EE2488 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		FE73ED1006931E7A64A0B686 /* Pods_Flix_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,7 +121,6 @@
 				17CD7EADB7CE6B2D0C2EC800 /* Pods-FlixTests.debug.xcconfig */,
 				A3B8066BE113507BC72BB12A /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,10 +154,13 @@
 				F76F507C25D7310E0096A5D2 /* ViewController.swift */,
 				F76F507E25D7310E0096A5D2 /* Main.storyboard */,
 				F76F508125D731110096A5D2 /* Assets.xcassets */,
-				F76F508325D731110096A5D2 /* LaunchScreen.storyboard */,
 				F76F508625D731110096A5D2 /* Info.plist */,
+				F76F508325D731110096A5D2 /* LaunchScreen.storyboard */,
 				F76F50AB25D759A70096A5D2 /* MovieViewController.swift */,
 				F71CC00025D77D150043146D /* MovieCell.swift */,
+				F7AD3C5F25E08B7E00EE2488 /* MovieDetailsViewController.swift */,
+				F7AD3C6725E0B9C200EE2488 /* MovieGridViewController.swift */,
+				F7AD3C7425E0C20900EE2488 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -415,6 +423,9 @@
 			files = (
 				F76F507D25D7310E0096A5D2 /* ViewController.swift in Sources */,
 				F76F507925D7310E0096A5D2 /* AppDelegate.swift in Sources */,
+				F7AD3C6025E08B7E00EE2488 /* MovieDetailsViewController.swift in Sources */,
+				F7AD3C6825E0B9C200EE2488 /* MovieGridViewController.swift in Sources */,
+				F7AD3C7525E0C20900EE2488 /* MovieGridCell.swift in Sources */,
 				F76F507B25D7310E0096A5D2 /* SceneDelegate.swift in Sources */,
 				F71CC00125D77D150043146D /* MovieCell.swift in Sources */,
 				F76F50AC25D759A70096A5D2 /* MovieViewController.swift in Sources */,
